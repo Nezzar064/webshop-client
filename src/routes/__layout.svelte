@@ -46,10 +46,12 @@
                 </ul>
             </div>
             {:else }
-            <div class="flex-1 pl-3">
-                <a class="btn btn-primary btn-sm " href="/cart">Register</a>
-                <a class="btn btn-primary btn-sm " href="/cart">Login</a>
+            <div class="btn-group">
+                <a class="btn btn-outline bg-base-100 btn-sm " href="/user/login">Register</a>
+                <a class="btn btn-outline bg-base-100 btn-sm " href="/user/register">Login</a>
             </div>
             {/if}
     </div>
 </div>
+
+<slot/>

@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    // https://daisyui.com/components/menu/ for sidebar
+</script>
+
+<div class="container ml-30 mr-30 m-12">
+    <div class="flex">
+
+    </div>
+</div>
+
+
